@@ -1,0 +1,22 @@
+{
+    "name": "stacktrace",
+    "displayName": "Stacktrace",
+    "description": "Our default VS Code colours.",
+    "version": "0.0.1",
+    "publisher": "Stacktrace",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Stacktrace",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Stacktrace-color-theme.json"
+            }
+        ]
+    }
+}
